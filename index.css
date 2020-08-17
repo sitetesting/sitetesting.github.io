@@ -1,0 +1,81 @@
+body 
+{
+	background:#FFFFAF; 
+	margin: 0;
+	padding: 0;
+}
+
+.header
+{
+	background-color: #FFFFAF; 
+	border-radius: 10px;
+	position: fixed;
+	overflow: hidden;
+	margin:0;
+	top:0;
+
+
+}
+
+table
+{
+	table-layout: fixed;
+	text-align: center;
+	
+	
+	
+	
+} 
+
+td
+{
+	border: 0px solid black;
+	background: #4FBA29;
+	padding: none;
+	margin: none
+	text-transform: capitalize;
+	max-height: 1em; 
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	padding: 7px 0 7px 0;
+	word-wrap: break-word;
+	overflow: hidden;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+
+
+}
+
+td:hover
+{
+	background-color: #46AE21;
+}
+
+.container
+{
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: center;
+	margin-top: 20px;
+}
+
+
+img
+{
+	width: 250px;
+	height: 280px;
+	border-radius: 15px;
+	box-shadow: 7px 7px 7px #00000050, -7px -7px 7px #ffffff90;
+}
+
+.product
+{
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px ;
+	margin-top: 40px; 	
+	clear: both;
+}
