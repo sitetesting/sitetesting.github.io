@@ -1,8 +1,9 @@
 body 
 {
-	background:#FFFFAF; 
+	background:#FFFBD1; 
 	margin: 0;
 	padding: 0;
+
 }
 
 .header
@@ -13,6 +14,8 @@ body
 	overflow: hidden;
 	margin:0;
 	top:0;
+	display: block;
+	clear: both;
 
 
 }
@@ -34,10 +37,10 @@ td
 	padding: none;
 	margin: none
 	text-transform: capitalize;
-	max-height: 1em; 
+	height: 2em; 
 	border-radius: 10px;
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
 	padding: 7px 0 7px 0;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -59,23 +62,31 @@ td:hover
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-content: center;
-	margin-top: 20px;
+	margin-top: 50px;
+	flex-direction: column;
 }
 
 
 img
 {
-	width: 250px;
-	height: 280px;
+	width: 600px;
+	height: 500px;
 	border-radius: 15px;
-	box-shadow: 7px 7px 7px #00000050, -7px -7px 7px #ffffff90;
+	box-shadow: 12px 12px 10px #00000050, -12px -12px 10px #ffffff90;
 }
 
 .product
 {
 	text-align: center;
 	font-weight: 700;
-	font-size: 20px ;
+	font-size: 30px ;
 	margin-top: 40px; 	
 	clear: both;
+	transition: transform .5s;
+
 }
+.product:hover
+{
+	transform: scale(1.13);
+	overflow: hidden;
+	}
