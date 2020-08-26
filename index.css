@@ -30,6 +30,12 @@ table
 	
 } 
 
+a
+{
+	text-decoration: none;
+	color:white;
+}
+
 td
 {
 	border: 0px solid black;
@@ -37,16 +43,18 @@ td
 	padding: none;
 	margin: none
 	text-transform: capitalize;
-	height: 2em; 
+	height: 3em; 
 	border-radius: 10px;
 	color: white;
-	font-size: 20px;
+	font-size: 24px;
 	padding: 7px 0 7px 0;
 	word-wrap: break-word;
 	overflow: hidden;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	cursor: pointer;
+	font-weight: 900;
+
 
 
 }
@@ -55,6 +63,8 @@ td:hover
 {
 	background-color: #46AE21;
 }
+
+
 
 .container
 {
@@ -82,11 +92,15 @@ img
 	font-size: 30px ;
 	margin-top: 40px; 	
 	clear: both;
-	transition: transform .5s;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	-webkit-transition-property: box-shadow, transform;
+	padding: 40px;
 
 }
-.product:hover
+.product:hover, .product:focus, product:active 
 {
+	-webkit-transform: scale(1.13);
 	transform: scale(1.13);
 	overflow: hidden;
 	}
