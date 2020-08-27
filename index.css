@@ -1,6 +1,6 @@
 body 
 {
-	background:#FFFBD1; 
+	background:#ffebeb; 
 	margin: 0;
 	padding: 0;
 
@@ -8,7 +8,7 @@ body
 
 .header
 {
-	background-color: #FFFFAF; 
+
 	border-radius: 10px;
 	position: fixed;
 	overflow: hidden;
@@ -39,7 +39,7 @@ a
 td
 {
 	border: 0px solid black;
-	background: #4FBA29;
+	background:#FF66CC;
 	padding: none;
 	margin: none
 	text-transform: capitalize;
